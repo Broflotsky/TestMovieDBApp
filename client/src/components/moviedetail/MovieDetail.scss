@@ -1,0 +1,27 @@
+.wrapper-detail{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    gap: 15px;
+    background-color: gray;
+
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+    }
+
+    .wrapper-text{
+        text-align: center;
+
+        h1{
+            font-size: 22px;
+        }
+
+        h3{
+            font-size: 14px;
+        }
+
+        span{
+            font-size: 12px;
+        }
+    }
+}

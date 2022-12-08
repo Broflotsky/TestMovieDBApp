@@ -1,0 +1,23 @@
+.paginator{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    position: sticky;
+    top:30px;
+    z-index: 2;
+    padding: 10px;
+    button{
+        font-size: 22px;
+        padding-left: 22px;
+        padding-right: 22px;
+        background-color: #0066b2;
+        color:white;
+        border-radius: 8px;
+        border: none;
+
+        &:hover{
+            background-color: #044679;
+            color:black;
+        }
+    }
+}

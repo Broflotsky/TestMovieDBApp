@@ -1,0 +1,6 @@
+.wrapper-cards{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 18rem;
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+}
